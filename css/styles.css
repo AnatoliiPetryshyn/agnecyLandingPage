@@ -10,3 +10,8 @@
   --button-color: #ff2d2d;
 }
 
+.container {
+  max-width: 1250px;
+  min-width: 320px;
+  margin: auto;
+}
