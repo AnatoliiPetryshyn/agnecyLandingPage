@@ -1,0 +1,12 @@
+:root {
+  --main-color: #312f30;
+  --accent-color: #ff3f40;
+  --bg-light: #f6f2f1;
+  --title-color: rgba(0,0,0,.8);
+  --description-color: rgba(0,0,0,.7);
+  --light-text-color: rgba(255,255,255,.8);
+  --menu-color: #e0e0e0;
+  --light: #fff;
+  --button-color: #ff2d2d;
+}
+
