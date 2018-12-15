@@ -8,6 +8,7 @@
   --menu-color: #e0e0e0;
   --light: #fff;
   --button-color: #ff2d2d;
+  --button-hover-color: #ff7070;
 }
 
 html {
@@ -66,3 +67,53 @@ img {
   background-color: var(--accent-color);
 }
 
+/* Organisation */
+.organisation {
+  background-color: var(--bg-light);
+}
+
+.organisation__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.organisation__article {
+  width: 58.8rem;
+}
+
+.organisation__title {
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 0.6rem;
+  line-height: 7.2rem;
+  margin-top: 9.3rem;
+  margin-bottom: 1.6rem;
+}
+
+.organisation__description {
+  line-height: 2.8rem;
+  margin-bottom: 4rem;
+}
+
+.organisation__button {
+  font-weight: 700;
+  color: #fff;
+  padding: 2rem 6rem;
+  margin-bottom: 12.3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--button-color);
+  cursor: pointer;
+  outline: none;
+}
+
+.organisation__button:hover {
+  background-color: var(--button-hover-color);
+}
+
+.organisation__video {
+  box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
+  margin-top: 10.3rem;
+}
