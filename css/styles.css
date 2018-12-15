@@ -10,8 +10,59 @@
   --button-color: #ff2d2d;
 }
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  color: var(--description-color);
+}
+
 .container {
   max-width: 1250px;
   min-width: 320px;
   margin: auto;
 }
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  background-color: var(--bg-light);
+  padding-top: 3rem;
+}
+
+.header .menu { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  list-style: none;
+  background-color: var(--main-color);
+  padding: 0;
+  margin: 0;
+}
+
+.menu__item {
+  display: block;
+  line-height: 9rem;
+}
+
+.menu__link { 
+  display: block;
+  font-weight: 700;
+  color: var(--menu-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.menu__link:hover {
+  background-color: var(--accent-color);
+}
+
