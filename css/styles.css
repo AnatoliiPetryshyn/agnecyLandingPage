@@ -8,7 +8,9 @@
   --menu-color: #e0e0e0;
   --light: #fff;
   --button-color: #ff2d2d;
-  --button-hover-color: #ff7070;
+  --icon-color: #ff3b4a;
+  --line-color: #ececec;
+
 }
 
 html {
@@ -29,6 +31,25 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 1.9rem 6rem;
+  margin-bottom: 12.3rem;
+  border: 2px solid var(--button-color);
+  border-radius: 0.5rem;
+  background-color: var(--button-color);
+  letter-spacing: 0.045rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: var(--light);
+  color: var(--button-color);
 }
 
 /* Header */
@@ -87,33 +108,80 @@ img {
   text-transform: uppercase;
   color: #000;
   letter-spacing: 0.6rem;
-  line-height: 7.2rem;
+  line-height: 1.2;
   margin-top: 9.3rem;
   margin-bottom: 1.6rem;
 }
 
 .organisation__description {
-  line-height: 2.8rem;
+  line-height: 1.75;
   margin-bottom: 4rem;
-}
-
-.organisation__button {
-  font-weight: 700;
-  color: #fff;
-  padding: 2rem 6rem;
-  margin-bottom: 12.3rem;
-  border: none;
-  border-radius: 0.5rem;
-  background-color: var(--button-color);
-  cursor: pointer;
-  outline: none;
-}
-
-.organisation__button:hover {
-  background-color: var(--button-hover-color);
 }
 
 .organisation__video {
   box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
   margin-top: 10.3rem;
+}
+
+/* Provide */
+.provide__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10.8rem;
+  padding-bottom: 10.7rem;
+  border-bottom: 1px solid var(--line-color);
+}
+
+.provide__article {
+  width: 51.5rem;
+}
+
+.provide__title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: 0.04rem;
+  margin-top: 0;
+  margin-bottom: 4.1rem;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.provide__description {
+  line-height: 1.75;
+  margin-bottom: 5.4rem;
+}
+
+.provide__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 61rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.provide__list-item {
+  width: 28.9rem;
+}
+
+.provide__list-item:nth-child(2n+1) {
+  margin-right: 2.5rem;
+}
+
+.provide__list-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.provide__icon {
+  fill: var(--icon-color);
+  width: 4rem;
+  height: 3.6rem;
+  
+}
+
+.provide__list-description {
+  line-height: 1.75;
 }
