@@ -365,12 +365,37 @@ img {
 }
 
 .team__list-item {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 19.8rem;
   height: 21.4rem; 
   list-style: none;
+  cursor: pointer;
   overflow: hidden;
 }
 
 .team__list-item:not(:nth-child(n+4)) {
   margin: 0 2rem 0 0;
+}
+
+.team__item-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background-color: rgba(0,0,0,.5);
+  opacity: 0;
+}
+
+.team__list-item:hover .team__item-name {
+  opacity: 1;
 }
