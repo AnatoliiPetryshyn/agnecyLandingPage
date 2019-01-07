@@ -600,7 +600,8 @@ img {
   border-radius: 50%;
 }
 
-.footer__social-link:hover {
+.footer__social-link:hover,
+.footer__social-link:focus {
   background-color: var(--accent-color);
 }
 
