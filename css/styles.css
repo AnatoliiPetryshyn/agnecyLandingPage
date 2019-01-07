@@ -45,7 +45,7 @@ img {
 .button {
   font-size: 1.8rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--light);
   padding: 1.9rem 6rem;
   border: 2px solid var(--button-color);
   border-radius: 0.5rem;
@@ -385,17 +385,58 @@ img {
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding: 6px 0;
+  padding: 0.6rem 0;
   margin: 0;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.01em;
-  color: #fff;
+  color: var(--light);
   background-color: rgba(0,0,0,.5);
   opacity: 0;
 }
 
 .team__list-item:hover .team__item-name {
   opacity: 1;
+}
+
+/* subscribe */
+.subscribe {
+  padding: 14rem 0;
+  background-image: url(https://images.pexels.com/photos/210437/pexels-photo-210437.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.subscribe__tittle {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+  margin: 0 0 3.4rem 0;
+  color: var(--light);
+}
+
+.subscribe__description {
+  line-height: 28px;
+  color: var(--light);
+  margin: 0 0 6rem 0;
+}
+
+
+.subscribe__email {
+  line-height: 24px;
+  letter-spacing: 0.025em;
+  color: rgba(44, 44, 44, .7);
+  background-color: var(--light);
+  border: none;
+  border-radius: 5px;
+  padding: 3rem 36rem 3rem 3.5rem;
+  outline: none;
+}
+
+.subscribe__button {
+  padding: 3rem 5.8rem;
+  text-transform: uppercase;
 }
