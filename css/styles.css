@@ -2,15 +2,14 @@
   --main-color: #312f30;
   --accent-color: #ff3f40;
   --bg-light: #f6f2f1;
-  --title-color: rgba(0,0,0,.8);
-  --description-color: rgba(0,0,0,.7);
-  --light-text-color: rgba(255,255,255,.8);
+  --title-color: rgba(0, 0, 0, 0.8);
+  --description-color: rgba(0, 0, 0, 0.7);
+  --light-text-color: rgba(255, 255, 255, 0.8);
   --menu-color: #e0e0e0;
   --light: #fff;
   --button-color: #ff2d2d;
   --icon-color: #ff3b4a;
   --line-color: #ececec;
-
 }
 
 html {
@@ -25,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.6rem;
   color: var(--description-color);
 }
@@ -66,7 +65,7 @@ img {
   padding-top: 3rem;
 }
 
-.header .menu { 
+.header .menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +81,7 @@ img {
   line-height: 9rem;
 }
 
-.menu__link { 
+.menu__link {
   display: block;
   font-weight: 700;
   color: var(--menu-color);
@@ -100,7 +99,6 @@ img {
 .organisation {
   padding: 9.4rem 0 11.2rem 0;
   background-color: var(--bg-light);
-
 }
 
 .organisation__wrap {
@@ -110,7 +108,6 @@ img {
 
 .organisation__article {
   width: 58.8rem;
-
 }
 
 .organisation__title {
@@ -121,19 +118,16 @@ img {
   letter-spacing: 0.6rem;
   line-height: 1.2;
   margin: 0 0 2.8rem 0;
-  
 }
 
 .organisation__description {
   line-height: 1.75;
   margin: 0 0 5.6rem 0;
-
 }
 
 .organisation__video {
   border: 0;
   box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
-
 }
 
 /* Provide */
@@ -177,7 +171,7 @@ img {
   width: 29.3rem;
 }
 
-.provide__list-item:nth-child(2n+1) {
+.provide__list-item:nth-child(2n + 1) {
   margin-right: 2.5rem;
 }
 
@@ -191,7 +185,7 @@ img {
 .provide__icon {
   fill: var(--icon-color);
   width: 4rem;
-  height: 3.6rem; 
+  height: 3.6rem;
   margin: 0 0 3rem 0;
 }
 
@@ -209,7 +203,7 @@ img {
 }
 
 .feature__header:after {
-  content: "";
+  content: '';
   display: block;
   width: 13rem;
   height: 0.2rem;
@@ -299,7 +293,7 @@ img {
 
 .team__description::after {
   display: block;
-  content: "";
+  content: '';
   width: 13rem;
   height: 0.2rem;
   background-color: var(--button-color);
@@ -312,7 +306,6 @@ img {
 
 .team__person-img {
   width: 32rem;
-  height: 46rem;
   margin: 0 7.4rem 0 0;
 }
 
@@ -370,13 +363,13 @@ img {
   top: 0;
   left: 0;
   width: 19.8rem;
-  height: 21.4rem; 
+  height: 21.4rem;
   list-style: none;
   cursor: pointer;
   overflow: hidden;
 }
 
-.team__list-item:not(:nth-child(n+4)) {
+.team__list-item:not(:nth-child(n + 4)) {
   margin: 0 2rem 0 0;
 }
 
@@ -393,7 +386,7 @@ img {
   font-weight: 600;
   letter-spacing: 0.01em;
   color: var(--light);
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
 }
 
@@ -425,12 +418,11 @@ img {
   margin: 0 0 6rem 0;
 }
 
-
 .subscribe__email {
   width: 52.2rem;
   line-height: 24px;
   letter-spacing: 0.025em;
-  color: rgba(44, 44, 44, .7);
+  color: rgba(44, 44, 44, 0.7);
   background-color: var(--light);
   border: none;
   border-radius: 5px;
@@ -443,7 +435,6 @@ img {
   padding: 3rem 5.8rem;
   text-transform: uppercase;
 }
-
 
 /* getInTouch */
 .getInTouch {
@@ -467,7 +458,7 @@ img {
 
 .getInTouch__description::after {
   display: block;
-  content: "";
+  content: '';
   width: 13rem;
   height: 0.2rem;
   background-color: var(--button-color);
@@ -492,7 +483,7 @@ img {
 .getInTouch__name,
 .getInTouch__email {
   width: 33.8em;
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border: none;
   border-radius: 5px;
   color: var(--description-color);
@@ -507,7 +498,7 @@ img {
 
 .getInTouch__email {
   line-height: 28px;
-  padding:  2.4rem 4.8rem 2.2rem 4.8rem;
+  padding: 2.4rem 4.8rem 2.2rem 4.8rem;
 }
 
 .getInTouch__message {
@@ -515,7 +506,7 @@ img {
   height: 25rem;
   padding: 3rem 5.2rem;
   margin: 0 0 4.4rem 0;
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0, 0, 0, 0.1);
   border: none;
   border-radius: 5px;
   color: var(--description-color);
@@ -538,7 +529,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   line-height: 34px;
-  color:  rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
   margin: 0 0 3.4rem 0;
 }
@@ -546,7 +537,7 @@ img {
 .getInTouch__contact-address,
 .getInTouch__contact-link {
   line-height: 28px;
-  color:  rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .getInTouch__contact-address {
@@ -625,8 +616,8 @@ img {
 
 /* visually-hidden helper */
 .visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+input[type='checkbox'].visually-hidden,
+input[type='radio'].visually-hidden {
   position: absolute;
 
   width: 1px;
